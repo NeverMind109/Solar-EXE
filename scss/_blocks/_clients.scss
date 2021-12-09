@@ -1,0 +1,28 @@
+.clients {
+    margin-bottom: 150px;
+    &-slider {
+        &__box {
+            display: flex;
+            &-image {
+                flex-basis: 510px;
+                margin-right: 90px;
+                object-fit: cover;
+                margin-bottom: 30px;
+            }
+            &-title {
+                max-width: 478px;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 25px;
+                margin-bottom: 30px;
+            }
+            &-list {
+                margin-left: 51px;
+                margin-bottom: 50px;
+            }
+            &-item {
+                margin-bottom: 15px;
+            }
+        }
+    }
+}

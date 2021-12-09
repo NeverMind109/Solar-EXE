@@ -59,3 +59,26 @@ ul {
     margin-bottom: 60px;
     text-transform: uppercase;
 }
+.slick-prev,
+.slick-next {
+    fill: #000;
+    transition: fill .5s;
+}
+.slick-button {
+    position: absolute;
+    left: 275px;
+    bottom: -4px;
+    z-index: 5;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    &:hover {
+        .slick-prev,
+        .slick-next {
+            fill: #a9a32a;
+        } 
+    }
+}
+.slick-button-next {
+    left: 340px;
+}

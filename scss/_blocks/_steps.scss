@@ -1,0 +1,35 @@
+.steps {
+    margin-bottom: 150px;
+    &__inner {
+        display: flex;
+    }
+    &__content {
+        margin-right: 90px;
+    }
+    &__list {
+        list-style: none;
+        counter-reset: number;
+        &-item {
+            counter-increment: number;
+            margin-bottom: 30px;
+            &::before {
+                content: '0' counter(number);
+                color: #868585;
+                margin-bottom: 11px;
+            }
+            &:nth-child(n+10)::before {
+                content: counter(number);
+            }
+        }
+        &-title {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 25px;
+            margin-bottom: 2px;
+        }
+    }
+    &__image {
+        flex-basis: 600px;
+        object-fit: cover;
+    }
+}

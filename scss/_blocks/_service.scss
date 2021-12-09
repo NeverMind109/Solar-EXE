@@ -1,0 +1,24 @@
+.service {
+    margin-bottom: 150px;
+    color: #303030;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__content {
+        flex-basis: 510px;
+        margin-right: 90px;
+    }
+    &__box {
+        margin-bottom: 50px;
+        &-title {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 25px;
+            margin-bottom: 15px;
+        }
+    }
+    &__image {
+        object-fit: cover;
+    }
+}

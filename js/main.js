@@ -16,4 +16,6 @@ $(function(){
         nextArrow: '<button class="slick-button slick-button-next"><svg class="slick-next" width="40px" height="8px"><use xlink:href="images/icons.svg#next-arrow"></use></svg></button>',
         prevArrow: '<button class="slick-button slick-button-prev"><svg class="slick-prev" width="40px" height="8px"><use xlink:href="images/icons.svg#prev-arrow"></use></svg></button>',
     });
+    // Parallax
+    $('.blockquote').parallax({imageSrc: '../images/blockquote-bg.jpg'});
 });

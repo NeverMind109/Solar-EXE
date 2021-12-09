@@ -200,8 +200,22 @@ ul {
   cursor: pointer;
   border: none;
   background-color: transparent; }
+  .slick-button:hover .slick-prev,
+  .slick-button:hover .slick-next {
+    fill: #a9a32a; }
 
 .slick-button-next {
   left: 340px; }
+
+.blockquote {
+  padding: 128px 10px 144px; }
+  .blockquote__text {
+    max-width: 670px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 57px;
+    text-align: center;
+    color: #FFFFFF; }
 
 /*# sourceMappingURL=style.css.map */

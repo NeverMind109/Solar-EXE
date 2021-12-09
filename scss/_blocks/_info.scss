@@ -82,6 +82,12 @@
     cursor: pointer;
     border: none;
     background-color: transparent;
+    &:hover {
+        .slick-prev,
+        .slick-next {
+            fill: #a9a32a;
+        } 
+    }
 }
 .slick-button-next {
     left: 340px;

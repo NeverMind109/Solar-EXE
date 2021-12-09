@@ -1,0 +1,46 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    background-color: #fff;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    list-style: none;
+}
+.button-background {
+    transition: fill .5s;
+}
+.button {
+    &__text {
+        display: inline-block;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        transform: translate(-57px, -17px);   
+    }
+    &:hover {
+        .button-background {
+            fill: #A9A32A;
+        }
+    }
+}
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__link {
+        padding: 0 10px;
+    }
+    &__icon {
+        fill: #fff;
+    }
+}

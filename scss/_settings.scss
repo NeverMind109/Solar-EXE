@@ -8,6 +8,7 @@ body {
     font-size: 14px;
     line-height: 19px;
     background-color: #fff;
+    color: #303030;
 }
 a {
     text-decoration: none;
@@ -30,7 +31,8 @@ ul {
         font-weight: normal;
         font-size: 18px;
         line-height: 25px;
-        transform: translate(-57px, -17px);   
+        transform: translateY(-17px);
+        margin-left: -57px;
     }
     &:hover {
         .button-background {

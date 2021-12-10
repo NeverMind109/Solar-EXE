@@ -1,0 +1,63 @@
+.footer {
+    background: url('../images/footer-bg.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0 50px;
+    color: #fff;
+    &__top {
+        display: flex;
+        margin-bottom: 150px;
+    }
+    &__form {
+        flex-basis: 510px;
+        margin-right: 90px;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        margin-bottom: 60px;
+        text-transform: uppercase;
+    }
+    &__input {
+        border: none;
+        border-bottom: 1px solid #fff;
+        display: block;
+        width: 100%;
+        background-color: transparent;
+        font-family: 'Noto Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+        color: #FFFFFF;
+        padding: 10px;
+        margin-bottom: 60px;
+        &::placeholder{
+            font-family: 'Noto Sans', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 19px;
+            color: #FFFFFF;
+        }
+    }
+    &__button {
+        border: none;
+        background-color: transparent;
+        color: #FFFFFF;
+        padding: 0;
+    }
+    &__contacts {
+        &-item {
+            font-size: 18px;
+            line-height: 25px;
+            margin-bottom: 30px;
+        }
+    }
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

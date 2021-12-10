@@ -277,4 +277,87 @@ ul {
     -o-object-fit: cover;
        object-fit: cover; }
 
+.footer {
+  background: url("../images/footer-bg.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 70px 0 50px;
+  color: #fff; }
+  .footer__top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 150px; }
+  .footer__form {
+    -ms-flex-preferred-size: 510px;
+        flex-basis: 510px;
+    margin-right: 90px; }
+  .footer__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    margin-bottom: 60px;
+    text-transform: uppercase; }
+  .footer__input {
+    border: none;
+    border-bottom: 1px solid #fff;
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 60px; }
+    .footer__input::-webkit-input-placeholder {
+      font-family: 'Noto Sans', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 19px;
+      color: #FFFFFF; }
+    .footer__input:-ms-input-placeholder {
+      font-family: 'Noto Sans', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 19px;
+      color: #FFFFFF; }
+    .footer__input::-ms-input-placeholder {
+      font-family: 'Noto Sans', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 19px;
+      color: #FFFFFF; }
+    .footer__input::placeholder {
+      font-family: 'Noto Sans', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 19px;
+      color: #FFFFFF; }
+  .footer__button {
+    border: none;
+    background-color: transparent;
+    color: #FFFFFF;
+    padding: 0; }
+  .footer__contacts-item {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 30px; }
+  .footer__bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
 /*# sourceMappingURL=style.css.map */
